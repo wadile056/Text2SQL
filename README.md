@@ -74,4 +74,4 @@ Convert natural language questions into SQL queries using AI and execute them ag
 - Enhance the user interface.
 
 ## Author
-Your Name
+Vaibhav Wadile
