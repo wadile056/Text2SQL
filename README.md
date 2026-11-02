@@ -99,4 +99,4 @@ Convert natural language questions into SQL queries using AI and execute them ag
 
 ## Author
 Vaibhav Wadile
->>>>>>> 23cb9ff0c7bba30c87b5bf3c38a605a2a51858f0
+
