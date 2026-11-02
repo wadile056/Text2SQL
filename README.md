@@ -20,7 +20,7 @@ Fill in `.env` (Gemini key + MySQL password), then:
 ```
 npm start
 ```
-Open http://localhost:3000
+https://text2sql-8wsl.onrender.com/
 =======
 # Text2SQL Project
 
