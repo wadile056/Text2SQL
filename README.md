@@ -85,7 +85,7 @@ Convert natural language questions into SQL queries using AI and execute them ag
 
 6. Open your browser and visit:
 
-   `http://localhost:3000`
+   `https://text2sql-8wsl.onrender.com/`
 
 ## Security
 - Never upload your `.env` file.
