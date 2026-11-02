@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Text2SQL</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Text2SQL</h1>
+      <p class="sub">Write in English. Get a MySQL query.</p>
+
+      <textarea
+        id="question"
+        rows="3"
+        maxlength="500"
+        placeholder="e.g. Show all employees with salary above 50000"
+      ></textarea>
+
+      <button id="generateBtn">Generate SQL</button>
+
+      <p id="error" class="error"></p>
+
+      <div class="result-head">
+        <span>Result</span>
+        <button id="copyBtn" class="link">Copy</button>
+      </div>
+
+      <pre id="result">Your SQL will appear here.</pre>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
