@@ -16,8 +16,6 @@ app.use(express.static("public"));
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 let db = null;
 
-// Generate SQL with retries for temporary Gemini errors
-// Generate SQL with retries and strict spelling preservation
 async function generateSQL(question) {
   for (let i = 0; i < 3; i++) {
     try {
